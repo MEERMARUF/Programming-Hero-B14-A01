@@ -1,0 +1,51 @@
+*{
+    margin:0%;
+    padding:0%;
+
+}
+/* Navbar Section start */
+nav{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 35px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.nav-items{
+    /* background-color: rgb(225, 229, 243); */
+    padding: 20px;
+    border-radius:2px;
+}
+.nav-items ul{
+    display:flex;
+    color:rgb(80, 68, 68);
+    gap:40px;
+    list-style: none;
+
+    font-size: 18px;
+    font-weight: 15px;
+
+}
+.nav-button button{
+    border-style: none;
+    color:white;
+    background-color: rgb(68, 68, 216);
+    padding: 12px 30px;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 6px;
+}
+/* Navbar Section end */
+
+/* start hero-section */
+.hero-section{
+    min-height:500px;
+    background-image:url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
