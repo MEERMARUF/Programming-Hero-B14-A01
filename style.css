@@ -16,7 +16,7 @@ nav{
 .nav-items{
     /* background-color: rgb(225, 229, 243); */
     padding: 20px;
-    border-radius:2px;
+    border-radius:2px; 
 }
 .nav-items ul{
     display:flex;
