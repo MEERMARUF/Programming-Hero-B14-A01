@@ -43,9 +43,31 @@ nav{
 /* start hero-section */
 .hero-section{
     min-height:500px;
-    background-image:url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    background-image:url(./assets/banner.jpg);
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
     background-repeat:no-repeat;
+
 }
+
+/* start Secure your Spot (Pricing) Section  */
+
+.pricing-section{
+    text-align: center;
+
+
+}
+.pricing-card-container{
+    text-align:start;
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items:center;
+
+    padding:20px;
+    margin: 20px;
+    
+
+}
+/* end Secure your Spot (Pricing) Section  */
