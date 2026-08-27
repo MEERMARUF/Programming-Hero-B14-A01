@@ -17,7 +17,7 @@ nav{
 .nav-items{
     /* background-color: rgb(225, 229, 243); */
     padding: 20px;
-    border-radius:2px; 
+    border-radius:2px;
 }
 .nav-items ul{
     display:flex;
@@ -45,11 +45,10 @@ nav{
 .hero-section{
     min-height:500px;
     height: 700px;
-    background-image:url(./assets/banner.jpg);
+    background-image:url(./B14-A01-DevConf-2026/assets/banner.jpg);
     background-size: cover;
     background-position:center;
     background-repeat:no-repeat;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
