@@ -1,6 +1,7 @@
 *{
     margin:0%;
     padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 /* Navbar Section start */
@@ -20,15 +21,15 @@ nav{
 }
 .nav-items ul{
     display:flex;
-    color:rgb(80, 68, 68);
+    color:rgb(65, 62, 62);
     gap:40px;
     list-style: none;
 
     font-size: 18px;
-    font-weight: 15px;
+    font-weight: 40px;
 
 }
-.nav-button button{
+.common-button{
     border-style: none;
     color:white;
     background-color: rgb(68, 68, 216);
@@ -40,12 +41,63 @@ nav{
 }
 /* Navbar Section end */
 
-/* start hero-section */
+/* start hero-section */ 
 .hero-section{
     min-height:500px;
-    background-image:url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    height: 700px;
+    background-image:url(./assets/banner.jpg);
     background-size: cover;
     background-position:center;
-    background-attachment: fixed;
     background-repeat:no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 150px; */
+
+    color: white;
+    margin: 20px 0px;
+
 }
+.hero-content{
+    width: 40%;
+    text-align: center;
+    margin-top: 68px;
+}
+.hero-content h2{
+    /* color: color-mix(in oklab, #9087c0 25%, rgb(138, 172, 223) 75%); */
+    font-size: 60px;
+    font-width: 20px;
+    margin-bottom: 30px;
+}
+.hero-content p{
+
+    font-size: 20px;
+
+}
+.hero-section button{
+    margin-bottom:40px;
+
+}
+#hero-h2{
+    color:rgb(148, 81, 255);
+}
+/* end hero section  */
+
+/* start Meet the Speakers Section */
+
+.speakers-section{
+
+
+}
+.speakers-container{
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
+}
+
+/* end Meet the Speakers Section */
