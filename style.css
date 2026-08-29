@@ -1,6 +1,6 @@
 *{
-    margin:0%;
-    padding:0%;
+    /* margin:0%;
+    padding:0%; */
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -43,6 +43,7 @@ nav{
 
 /* start hero-section */ 
 .hero-section{
+    width:100%;
     min-height:500px;
     height: 700px;
     background-image:url(./assets/banner.jpg);
@@ -89,14 +90,28 @@ nav{
 
 .speakers-section{
 
+text-align:center;
 
 }
 .speakers-container{
-    margin: 0 auto;
+    width:min(1200px,90%);
+
+    margin: auto;
     display: grid;
-    gap: 20px;
+    gap: 50px;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    
+
+
+}
+.speakers-div {
+    /* padding: 10px; */
+    
+
+}
+.speakers-div img{
+    width: 100%;
 
 }
 
