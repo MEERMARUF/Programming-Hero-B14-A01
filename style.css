@@ -1,6 +1,6 @@
 *{
-    /* margin:0%;
-    padding:0%; */
+    margin:0%;
+    padding:0%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -103,7 +103,7 @@ text-align:center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    grid-template-columns
+    
 
 }
 .speakers-container img{
@@ -126,7 +126,7 @@ text-align:center;
 
 }
 .speakers-div {
-    /* padding: 10px; */
+    padding: 10px;
     
 
 }
@@ -142,6 +142,8 @@ text-align:center;
 .pricing-section{
     text-align: center;
     margin-top: 30px;
+    width: min(1200px, 90%);
+    margin: 80px auto;
 
 }
 .pricing-section h2{
@@ -161,14 +163,12 @@ text-align:center;
 
 }
 .pricing-card{
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 30px;
     border: 1px solid black;
-    border-radius: 5px;
-    width:min(1200px,90%);
+
 
     margin: auto;
-    display: grid;
     gap: 50px;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
