@@ -95,7 +95,7 @@ text-align:center;
 
 }
 .speakers-container{
-    width:min(900px,80%);
+    width:min(1100px,80%);
     margin:auto;
     margin-top: 30px;
     text-align: start;
@@ -142,7 +142,7 @@ text-align:center;
 .pricing-section{
     text-align: center;
     margin-top: 30px;
-    width: min(1000px, 90%);
+    width: min(1200px, 90%);
     margin: 80px auto;
 
 }
@@ -161,13 +161,13 @@ text-align:center;
     /* align-items:center; */
     padding:20px;
 
+    margin-top: 30px;
+
 }
 .pricing-card{
     border-radius: 10px;
-    padding: 30px;
+    padding: 16px;
     border: 1px solid black;
-
-
     margin: auto;
     gap: 50px;
     grid-template-columns: repeat(2, 1fr);
@@ -400,3 +400,10 @@ text-align:center;
 
 
 /* end Hackathon challenge section */
+
+/* start footer section */
+
+
+
+
+/* end footer section */
