@@ -165,14 +165,11 @@ text-align:center;
 }
 .pricing-card{
     border-radius: 10px;
-    padding: 30px;
+    padding: 15px;
+    margin: auto;
     border: 1px solid black;
 
-
-    margin: auto;
-    gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
+   
     text-align: start;
     
 
