@@ -95,7 +95,7 @@ text-align:center;
 
 }
 .speakers-container{
-    width:min(900px,80%);
+    width:min(1100px,80%);
     margin:auto;
     margin-top: 30px;
     text-align: start;
@@ -143,7 +143,7 @@ text-align:center;
     
     text-align: center;
     margin-top: 30px;
-    width: min(1000px, 90%);
+    width: min(1200px, 90%);
     margin: 80px auto;
 
 }
@@ -162,14 +162,17 @@ text-align:center;
     /* align-items:center; */
     padding:20px;
 
+    margin-top: 30px;
+
 }
 .pricing-card{
     border-radius: 10px;
-    padding: 15px;
-    margin: auto;
+    padding: 16px;
     border: 1px solid black;
-
-   
+    margin: auto;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     text-align: start;
     
 
